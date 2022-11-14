@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eaf2ff;
+    font-size: 14px;
+    line-height: 22px;
+    color: #555555;
+}
+
+#column-main {
+    display: flex;
+    margin: 0px;
+    padding: 10px;
+    background-color: orange;
+    color: wheat;
+}
+
+
+/* LEFT */
+
+#column-left {
+    flex: 1;
+    background-color: green;
+    height: 800px;
+}
+
+
+/* CENTER */
+
+#column-center {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    background-color: yellow;
+    height: 800px;
+}
+
+#column-center #row-center-top {
+    display: flex;
+    flex: 1;
+    background-color: blue;
+    height: 400px;
+}
+
+#column-center #row-center-top #center-top-card-left {
+    flex: 1;
+    background-color: rgb(90, 90, 116);
+    height: 400px;
+}
+
+#column-center #row-center-top #center-top-card-right {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    background-color: rgb(49, 126, 87);
+    height: 400px;
+}
+
+#column-center #row-center-top #center-top-card-right #center-top-card-right-sub1 {
+    flex: 1;
+    background-color: rgb(49, 126, 87);
+    height: 400px;
+}
+
+#column-center #row-center-top #center-top-card-right #center-top-card-right-sub2 {
+    flex: 1;
+    background-color: rgb(49, 126, 87);
+    height: 400px;
+}
+
+#column-center #row-center-bottom {
+    display: flex;
+    flex: 1;
+    background-color: grey;
+    height: 400px;
+}
+
+#column-center #row-center-bottom #center-bottom-card-left {
+    flex: 1;
+    background-color: orange;
+    height: 400px;
+}
+
+#column-center #row-center-bottom #center-bottom-card-right {
+    flex: 1;
+    background-color: yellow;
+    height: 400px;
+}
+
+
+/* RIGHT */
+
+#column-right {
+    flex: 1;
+    flex-direction: column;
+    background-color: purple;
+    height: 800px;
+}
+
+#column-right #colum-right-card1 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: purple;
+    height: 200px;
+}
+
+#column-right #colum-right-card2 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: purple;
+    height: 200px;
+}
+
+#column-right #colum-right-card3 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: purple;
+    height: 400px;
+}
